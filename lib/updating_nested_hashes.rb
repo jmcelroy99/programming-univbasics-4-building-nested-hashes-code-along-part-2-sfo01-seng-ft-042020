@@ -60,6 +60,7 @@ def add_characters
      updated_chick = epic_tragedy[:Capulet][:heroine][:status] = "dead"
      updated
      updated_chick
+   end 
    
      
      
@@ -67,7 +68,7 @@ def add_characters
      
      
      
-     
+    
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
    # - Add two hashes to this array, both with a :name key.
    #   - The first hash should have the :name key set to "Prince Escalus" 
@@ -81,4 +82,3 @@ def add_characters
 
    # After your code, the following line will return the altered hash
    epic_tragedy
-end
